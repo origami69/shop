@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/origami69/Home/static/css/main.543acfd0.css",
-    "main.js": "/origami69/Home/static/js/main.089d54d1.js",
-    "static/js/787.0a5b87fa.chunk.js": "/origami69/Home/static/js/787.0a5b87fa.chunk.js",
-    "static/media/photo-1444858291040-58f756a3bdd6.png": "/origami69/Home/static/media/photo-1444858291040-58f756a3bdd6.d847f7f36a8ec2633df1.png",
-    "static/media/0000000004061.webp": "/origami69/Home/static/media/0000000004061.b58d4bdb25a63c65b03d.webp",
-    "static/media/0000000004048.webp": "/origami69/Home/static/media/0000000004048.cbad2d8450c297777066.webp",
-    "static/media/0000000004087.webp": "/origami69/Home/static/media/0000000004087.768e55c66518acd25bb9.webp",
-    "static/media/0000000004590.webp": "/origami69/Home/static/media/0000000004590.f38bd51406672bf03f5f.webp",
-    "static/media/0000000004770.webp": "/origami69/Home/static/media/0000000004770.69d9733ecfd8bf85379f.webp",
-    "static/media/0000000004011.webp": "/origami69/Home/static/media/0000000004011.46330f6367b2e9fe528b.webp",
-    "index.html": "/origami69/Home/index.html",
-    "main.543acfd0.css.map": "/origami69/Home/static/css/main.543acfd0.css.map",
-    "main.089d54d1.js.map": "/origami69/Home/static/js/main.089d54d1.js.map",
-    "787.0a5b87fa.chunk.js.map": "/origami69/Home/static/js/787.0a5b87fa.chunk.js.map"
+    "main.css": "/shop/Home/static/css/main.543acfd0.css",
+    "main.js": "/shop/Home/static/js/main.986378c0.js",
+    "static/js/787.0a5b87fa.chunk.js": "/shop/Home/static/js/787.0a5b87fa.chunk.js",
+    "static/media/photo-1444858291040-58f756a3bdd6.png": "/shop/Home/static/media/photo-1444858291040-58f756a3bdd6.d847f7f36a8ec2633df1.png",
+    "static/media/0000000004061.webp": "/shop/Home/static/media/0000000004061.b58d4bdb25a63c65b03d.webp",
+    "static/media/0000000004048.webp": "/shop/Home/static/media/0000000004048.cbad2d8450c297777066.webp",
+    "static/media/0000000004087.webp": "/shop/Home/static/media/0000000004087.768e55c66518acd25bb9.webp",
+    "static/media/0000000004590.webp": "/shop/Home/static/media/0000000004590.f38bd51406672bf03f5f.webp",
+    "static/media/0000000004770.webp": "/shop/Home/static/media/0000000004770.69d9733ecfd8bf85379f.webp",
+    "static/media/0000000004011.webp": "/shop/Home/static/media/0000000004011.46330f6367b2e9fe528b.webp",
+    "index.html": "/shop/Home/index.html",
+    "main.543acfd0.css.map": "/shop/Home/static/css/main.543acfd0.css.map",
+    "main.986378c0.js.map": "/shop/Home/static/js/main.986378c0.js.map",
+    "787.0a5b87fa.chunk.js.map": "/shop/Home/static/js/787.0a5b87fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.543acfd0.css",
-    "static/js/main.089d54d1.js"
+    "static/js/main.986378c0.js"
   ]
 }
