@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+   grid-template-rows:1fr 7fr ; 
+   min-width: 100vw;
+  min-height: 100vh;
+}
+.navContain{
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    grid-column: 1 2;
+    grid-row: 1 2;
+	color: white;
+	background: #24252a;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+a{
+	all: unset;
+    cursor: pointer;
+}
+.storeContain{
+	grid-column: 1 2;
+	grid-row: 2 3;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.homeContain{
+	grid-column: 1 2;
+	grid-row: 2 3;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 1fr;
+	
+}
+
+h3{
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.storeItem{
+	width: fit-content;
+	padding: 1rem;
+	-webkit-box-shadow: 0 0 1px 1px gray;
+    -moz-box-shadow: 0 0 1px 1px gray;
+    box-shadow: 0 0 0px 1px gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.space{
+	grid-column: 1 2;
+	grid-row: 1 2;
+	background: gray;
+}
+.storeCont{
+	grid-column: 2 3;
+	grid-row: 1 2;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	justify-items: center;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.space2{
+grid-column: 3 4;
+grid-row: 1 2;
+background: gray;
+}
+.submitter{
+	background: gray;
+	color: white;
+	border-radius: .5rem;
+	padding: .3rem;
+	width:80%;
+	border: none;
+	margin-top: 1rem;
+	border: 1px solid darkslategray;
+	
+}
+.bruh{background: gray;
+	color: white;
+	border-radius: .5rem;
+	padding: .3rem;
+	width: 100%;
+	border: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+.inv{
+	margin-top: 1rem;
+}
+.purchaseCont{
+	display: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	justify-items: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+}
+.remover{
+	background: gray;
+	color: white;
+	border-radius: .5rem;
+	padding: .3rem;
+	width:70%;
+	border: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+.cost{
+	margin-top: 1rem;
+}
+.confirm{
+	background: gray;
+	color: white;
+	border-radius: .5rem;
+	padding: .3rem;
+	width:70%;
+	border: none;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+.total{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+.combiner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+.titles{
+font-size: 3rem;
+font-weight: 500;
+margin-left: 1rem;
+margin-top: 1rem;
+}
+.fresh{
+	font-size: 2rem;
+font-weight: 400;
+margin-left: 2rem;
+margin-top: 2rem;
+}
+.theFinal{
+	display: none;
+	flex-direction: column;
+}
+.empty{
+	display: none;
+}
+
+.item{
+	margin-bottom: 1rem;
+}
+.finalCost{
+	margin-bottom: 1rem;
+}
+.empty{
+	margin-bottom: 1rem;
+}
+.buttHold{
+	display: flex;
+	flex-direction: row;
+
+}
+#exit{
+	margin-right: 2rem;
+}
+.farm{
+	border-radius: .5rem;
+	width: fit-content;
+	margin-top: 1rem;
+	opacity: .9;
+}
+.goDown{
+	margin-bottom: 3rem;
+}
